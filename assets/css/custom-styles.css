@@ -1,0 +1,59 @@
+.horse-1 {
+  background-color: #252f5a;
+}
+.horse-2 {
+  background-color: #6381E1;
+}
+.horse-3 {
+  background-color: #1F4BDB;
+}
+.horse-4 {
+  background-color: #28345C;
+}
+.horse-5 {
+  background-color: #1839A8;
+}
+
+.horse-1 .horse-gif {
+  position: relative;
+}
+
+
+.animation1 {
+  animation: run 10s linear forwards;
+}
+
+.animation2 {
+  animation: run 6s linear forwards;
+}
+
+.animation3 {
+  animation: run 8s linear forwards;
+}
+
+.horse-2 .horse-gif {
+  position: relative;
+}
+
+.horse-3 .horse-gif {
+  position: relative;
+}
+
+.horse-2 img {
+  filter: hue-rotate(180deg)
+}
+
+.horse-3 img {
+  filter:saturate(1.5);
+}
+
+@keyframes run {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: 90%;
+  }
+}
+
