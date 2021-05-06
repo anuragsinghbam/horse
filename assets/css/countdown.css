@@ -78,6 +78,9 @@
     width: 150px;
     height: 150px;
   }
+  .racing-section::before{
+    right: 10%;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -90,7 +93,9 @@
     height: 100px;
     font-size: 32px;
   }
-
+  .racing-section::before{
+    right: 15%;
+  }
   
 @keyframes run {
   0% {

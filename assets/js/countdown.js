@@ -10,6 +10,7 @@ const horses = document.querySelectorAll('.horse-gif')
 horses.forEach((horse, i) => {
   horse.addEventListener('animationend', (e) => {
     horseImages[i].src = 'assets/images/game/stopped-horse.png'
+    document.getElementById('confetti').style.display='block';
   })
 })
 
